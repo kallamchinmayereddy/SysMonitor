@@ -1,0 +1,559 @@
+[2026-11-12 14:56:01] [INFO] [SysMonitor.Phase1Verification.run_phase1_verification]: Starting Phase 1 verification on host machine
+[2026-11-12 14:56:04] [INFO] [SysMonitor.Phase1Verification.run_phase1_verification]: Phase 1 verification completed successfully with all assertions passing.
+[2026-11-12 15:01:55] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-12 15:01:57] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine background execution loop started.
+[2026-11-12 15:01:57] [INFO] [SysMonitor.MonitoringEngine.start]: MonitoringEngine background thread started (interval: 0.2s)
+[2026-11-12 15:01:58] [INFO] [SysMonitor.MonitoringEngine.stop]: Stopping MonitoringEngine background thread...
+[2026-11-12 15:02:00] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine loop terminated cleanly.
+[2026-11-12 15:02:00] [INFO] [SysMonitor.MonitoringEngine.stop]: MonitoringEngine background thread stopped successfully.
+[2026-11-12 15:07:03] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-12 15:07:05] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine background execution loop started.
+[2026-11-12 15:07:05] [INFO] [SysMonitor.MonitoringEngine.start]: MonitoringEngine background thread started (interval: 0.2s)
+[2026-11-12 15:07:06] [INFO] [SysMonitor.MonitoringEngine.stop]: Stopping MonitoringEngine background thread...
+[2026-11-12 15:07:06] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine loop terminated cleanly.
+[2026-11-12 15:07:06] [INFO] [SysMonitor.MonitoringEngine.stop]: MonitoringEngine background thread stopped successfully.
+[2026-11-12 15:09:01] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpt175yi66\test_sysmonitor.db
+[2026-11-12 15:09:01] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpl29l2bpu\test_sysmonitor.db
+[2026-11-12 15:09:01] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpx84s621s\test_sysmonitor.db
+[2026-11-12 15:09:01] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp4dkkosa5\test_sysmonitor.db
+[2026-11-12 15:09:01] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] CPU utilization at 82% (Observed: 82.0, Threshold: 80.0)
+[2026-11-12 15:09:01] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Critical] RAM utilization at 96% (Observed: 96.0, Threshold: 95.0)
+[2026-11-12 15:09:01] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp18s2k_d7\test_sysmonitor.db
+[2026-11-12 15:09:01] [INFO] [SysMonitor.DBManager.prune_old_data]: Pruned 1 old system metrics and 0 old process snapshots
+[2026-11-12 15:09:01] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpn632_o52\test_sysmonitor.db
+[2026-11-12 15:09:01] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpfsu06__e\test_sysmonitor.db
+[2026-11-12 15:10:55] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpscrxaluz\test_alerts.db
+[2026-11-12 15:10:55] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 10s
+[2026-11-12 15:10:55] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] Elevated CPU usage: 75.0% exceeds warning threshold of 70.0% (Observed: 75.0, Threshold: 70.0)
+[2026-11-12 15:10:55] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Critical] Critical CPU saturation: 92.0% exceeds critical limit of 90.0% (Observed: 92.0, Threshold: 90.0)
+[2026-11-12 15:10:55] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp_3zuvsm4\test_alerts.db
+[2026-11-12 15:10:55] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 10s
+[2026-11-12 15:10:55] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] High RAM usage: 85.0% exceeds warning threshold of 80.0% (Observed: 85.0, Threshold: 80.0)
+[2026-11-12 15:10:55] [INFO] [SysMonitor.AnomalyDetector.evaluate_metric]: Statistical Anomaly Detected: Cpu Percent spiked to 85.0, which is +37.00σ above recent baseline (11.0 ± 0.8)
+[2026-11-12 15:10:58] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-12 15:11:00] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine background execution loop started.
+[2026-11-12 15:11:00] [INFO] [SysMonitor.MonitoringEngine.start]: MonitoringEngine background thread started (interval: 0.2s)
+[2026-11-12 15:11:01] [INFO] [SysMonitor.MonitoringEngine.stop]: Stopping MonitoringEngine background thread...
+[2026-11-12 15:11:01] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine loop terminated cleanly.
+[2026-11-12 15:11:01] [INFO] [SysMonitor.MonitoringEngine.stop]: MonitoringEngine background thread stopped successfully.
+[2026-11-12 15:11:02] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp3a_hhag6\test_sysmonitor.db
+[2026-11-12 15:11:03] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpx2m06tnp\test_sysmonitor.db
+[2026-11-12 15:11:03] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp8se6s_r5\test_sysmonitor.db
+[2026-11-12 15:11:03] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp0j_gn_gn\test_sysmonitor.db
+[2026-11-12 15:11:03] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] CPU utilization at 82% (Observed: 82.0, Threshold: 80.0)
+[2026-11-12 15:11:03] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Critical] RAM utilization at 96% (Observed: 96.0, Threshold: 95.0)
+[2026-11-12 15:11:03] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp4rdgszt4\test_sysmonitor.db
+[2026-11-12 15:11:03] [INFO] [SysMonitor.DBManager.prune_old_data]: Pruned 1 old system metrics and 0 old process snapshots
+[2026-11-12 15:11:03] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp813za1e9\test_sysmonitor.db
+[2026-11-12 15:11:03] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpn3ybgkv6\test_sysmonitor.db
+[2026-11-12 15:17:25] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp1dh389hz\test_alerts.db
+[2026-11-12 15:17:25] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 10s
+[2026-11-12 15:17:25] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] Elevated CPU usage: 75.0% exceeds warning threshold of 70.0% (Observed: 75.0, Threshold: 70.0)
+[2026-11-12 15:17:25] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Critical] Critical CPU saturation: 92.0% exceeds critical limit of 90.0% (Observed: 92.0, Threshold: 90.0)
+[2026-11-12 15:17:25] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpo8t0j7tp\test_alerts.db
+[2026-11-12 15:17:25] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 10s
+[2026-11-12 15:17:25] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] High RAM usage: 85.0% exceeds warning threshold of 80.0% (Observed: 85.0, Threshold: 80.0)
+[2026-11-12 15:17:25] [INFO] [SysMonitor.AnomalyDetector.evaluate_metric]: Statistical Anomaly Detected: Cpu Percent spiked to 85.0, which is +37.00σ above recent baseline (11.0 ± 0.8)
+[2026-11-12 15:17:29] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-12 15:17:31] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine background execution loop started.
+[2026-11-12 15:17:31] [INFO] [SysMonitor.MonitoringEngine.start]: MonitoringEngine background thread started (interval: 0.2s)
+[2026-11-12 15:17:32] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: D:\OS Project\data\sysmonitor.db
+[2026-11-12 15:17:32] [INFO] [SysMonitor.MonitoringEngine.stop]: Stopping MonitoringEngine background thread...
+[2026-11-12 15:17:32] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 60s
+[2026-11-12 15:17:32] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine loop terminated cleanly.
+[2026-11-12 15:17:32] [INFO] [SysMonitor.MonitoringEngine.stop]: MonitoringEngine background thread stopped successfully.
+[2026-11-12 15:17:35] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp6ck3o25q\test_sysmonitor.db
+[2026-11-12 15:17:35] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpuwx8_3e3\test_sysmonitor.db
+[2026-11-12 15:17:35] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpn7g7fpvr\test_sysmonitor.db
+[2026-11-12 15:17:35] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpbzrbaq_i\test_sysmonitor.db
+[2026-11-12 15:17:35] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] CPU utilization at 82% (Observed: 82.0, Threshold: 80.0)
+[2026-11-12 15:17:35] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Critical] RAM utilization at 96% (Observed: 96.0, Threshold: 95.0)
+[2026-11-12 15:17:35] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpcq_jkb_0\test_sysmonitor.db
+[2026-11-12 15:17:35] [INFO] [SysMonitor.DBManager.prune_old_data]: Pruned 1 old system metrics and 0 old process snapshots
+[2026-11-12 15:17:35] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp7toq96po\test_sysmonitor.db
+[2026-11-12 15:17:35] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpvg7u4mnr\test_sysmonitor.db
+[2026-11-12 16:48:49] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpuh22s8pd\test_alerts.db
+[2026-11-12 16:48:49] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 10s
+[2026-11-12 16:48:49] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] Elevated CPU usage: 75.0% exceeds warning threshold of 70.0% (Observed: 75.0, Threshold: 70.0)
+[2026-11-12 16:48:49] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Critical] Critical CPU saturation: 92.0% exceeds critical limit of 90.0% (Observed: 92.0, Threshold: 90.0)
+[2026-11-12 16:48:49] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp4cx2dh45\test_alerts.db
+[2026-11-12 16:48:49] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 10s
+[2026-11-12 16:48:49] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] High RAM usage: 85.0% exceeds warning threshold of 80.0% (Observed: 85.0, Threshold: 80.0)
+[2026-11-12 16:48:49] [INFO] [SysMonitor.AnomalyDetector.evaluate_metric]: Statistical Anomaly Detected: Cpu Percent spiked to 85.0, which is +37.00σ above recent baseline (11.0 ± 0.8)
+[2026-11-12 16:48:53] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: D:\OS Project\data\sysmonitor.db
+[2026-11-12 16:48:53] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 60s
+[2026-11-12 16:48:53] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-12 16:48:58] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine background execution loop started.
+[2026-11-12 16:48:58] [INFO] [SysMonitor.MonitoringEngine.start]: MonitoringEngine background thread started (interval: 0.2s)
+[2026-11-12 16:48:59] [INFO] [SysMonitor.MonitoringEngine.stop]: Stopping MonitoringEngine background thread...
+[2026-11-12 16:48:59] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine loop terminated cleanly.
+[2026-11-12 16:48:59] [INFO] [SysMonitor.MonitoringEngine.stop]: MonitoringEngine background thread stopped successfully.
+[2026-11-12 16:49:00] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpblp5rard\test_sysmonitor.db
+[2026-11-12 16:49:01] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpeyxbjtn_\test_sysmonitor.db
+[2026-11-12 16:49:02] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp2zb7jca1\test_sysmonitor.db
+[2026-11-12 16:49:02] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpclb0_tq_\test_sysmonitor.db
+[2026-11-12 16:49:02] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] CPU utilization at 82% (Observed: 82.0, Threshold: 80.0)
+[2026-11-12 16:49:02] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Critical] RAM utilization at 96% (Observed: 96.0, Threshold: 95.0)
+[2026-11-12 16:49:02] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpbxbj9npo\test_sysmonitor.db
+[2026-11-12 16:49:02] [INFO] [SysMonitor.DBManager.prune_old_data]: Pruned 1 old system metrics and 0 old process snapshots
+[2026-11-12 16:49:02] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpsrqnb6yr\test_sysmonitor.db
+[2026-11-12 16:49:02] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpcx28ank9\test_sysmonitor.db
+[2026-11-12 19:22:21] [INFO] [SysMonitor.Phase1Verification.run_phase1_verification]: Starting Phase 1 verification on host machine
+[2026-11-12 19:22:25] [INFO] [SysMonitor.Phase1Verification.run_phase1_verification]: Phase 1 verification completed successfully with all assertions passing.
+[2026-11-12 19:23:11] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: D:\OS Project\data\sysmonitor.db
+[2026-11-12 19:23:11] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 60s
+[2026-11-12 19:23:11] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-12 19:23:11] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine background execution loop started.
+[2026-11-12 19:23:11] [INFO] [SysMonitor.MonitoringEngine.start]: MonitoringEngine background thread started (interval: 1.0s)
+[2026-11-12 19:23:11] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] High RAM usage: 87.8% exceeds warning threshold of 85.0% (Observed: 87.8, Threshold: 85.0)
+[2026-11-12 19:24:10] [INFO] [SysMonitor.AnomalyDetector.evaluate_metric]: Statistical Anomaly Detected: Read Bytes Per Sec spiked to 279144739.6, which is +9.97σ above recent baseline (6631287.0 ± 27334077.9)
+[2026-11-12 19:24:10] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] Statistical Anomaly: Read Bytes Per Sec spiked to 279144739.6, which is +9.97σ above recent baseline (6631287.0 ± 27334077.9) (Observed: 279144739.6, Threshold: 2.5)
+[2026-11-12 19:24:37] [INFO] [SysMonitor.AnomalyDetector.evaluate_metric]: Statistical Anomaly Detected: Download Speed spiked to 11872.6, which is +2.61σ above recent baseline (2081.8 ± 3745.4)
+[2026-11-12 19:24:38] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] Statistical Anomaly: Download Speed spiked to 11872.6, which is +2.61σ above recent baseline (2081.8 ± 3745.4) (Observed: 11872.6, Threshold: 2.5)
+[2026-11-12 19:24:56] [INFO] [SysMonitor.AnomalyDetector.evaluate_metric]: Statistical Anomaly Detected: Read Bytes Per Sec spiked to 3987100.5, which is +56.37σ above recent baseline (36835.7 ± 70074.6)
+[2026-11-12 19:24:56] [INFO] [SysMonitor.AnomalyDetector.evaluate_metric]: Statistical Anomaly Detected: Download Speed spiked to 27483.5, which is +9.78σ above recent baseline (1538.6 ± 2653.2)
+[2026-11-12 19:24:59] [INFO] [SysMonitor.AnomalyDetector.evaluate_metric]: Statistical Anomaly Detected: Write Bytes Per Sec spiked to 1335027.8, which is +6.83σ above recent baseline (318521.3 ± 148936.2)
+[2026-11-12 19:24:59] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] Statistical Anomaly: Write Bytes Per Sec spiked to 1335027.8, which is +6.83σ above recent baseline (318521.3 ± 148936.2) (Observed: 1335027.8, Threshold: 2.5)
+[2026-11-12 19:25:00] [INFO] [SysMonitor.AnomalyDetector.evaluate_metric]: Statistical Anomaly Detected: Read Bytes Per Sec spiked to 6338521.4, which is +10.00σ above recent baseline (137774.2 ± 620314.9)
+[2026-11-12 19:25:00] [INFO] [SysMonitor.AnomalyDetector.evaluate_metric]: Statistical Anomaly Detected: Write Bytes Per Sec spiked to 1088765.8, which is +3.42σ above recent baseline (345497.5 ± 217229.5)
+[2026-11-12 19:25:01] [INFO] [SysMonitor.AnomalyDetector.evaluate_metric]: Statistical Anomaly Detected: Write Bytes Per Sec spiked to 1685514.5, which is +5.37σ above recent baseline (363787.7 ± 246296.4)
+[2026-11-12 19:25:02] [INFO] [SysMonitor.AnomalyDetector.evaluate_metric]: Statistical Anomaly Detected: Write Bytes Per Sec spiked to 1357482.4, which is +3.00σ above recent baseline (393464.7 ± 320939.2)
+[2026-11-12 19:25:04] [INFO] [SysMonitor.AnomalyDetector.evaluate_metric]: Statistical Anomaly Detected: Write Bytes Per Sec spiked to 1569262.8, which is +3.27σ above recent baseline (412959.3 ± 353431.9)
+[2026-11-12 19:25:09] [INFO] [SysMonitor.AnomalyDetector.evaluate_metric]: Statistical Anomaly Detected: Write Bytes Per Sec spiked to 2090465.5, which is +3.59σ above recent baseline (509089.2 ± 440945.4)
+[2026-11-12 19:25:09] [INFO] [SysMonitor.AnomalyDetector.evaluate_metric]: Statistical Anomaly Detected: Download Speed spiked to 18230.8, which is +3.32σ above recent baseline (2086.5 ± 4867.0)
+[2026-11-12 19:25:12] [INFO] [SysMonitor.AnomalyDetector.evaluate_metric]: Statistical Anomaly Detected: Download Speed spiked to 38831.1, which is +6.64σ above recent baseline (2546.1 ± 5465.4)
+[2026-11-12 19:25:15] [INFO] [SysMonitor.AnomalyDetector.evaluate_metric]: Statistical Anomaly Detected: Download Speed spiked to 24495.4, which is +2.67σ above recent baseline (3480.0 ± 7859.1)
+[2026-11-12 19:25:16] [INFO] [SysMonitor.MonitoringEngine.stop]: Stopping MonitoringEngine background thread...
+[2026-11-12 19:25:16] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine loop terminated cleanly.
+[2026-11-12 19:25:17] [INFO] [SysMonitor.MonitoringEngine.stop]: MonitoringEngine background thread stopped successfully.
+[2026-11-12 19:25:23] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine background execution loop started.
+[2026-11-12 19:25:23] [INFO] [SysMonitor.MonitoringEngine.start]: MonitoringEngine background thread started (interval: 1.0s)
+[2026-11-12 19:25:26] [INFO] [SysMonitor.MonitoringEngine.stop]: Stopping MonitoringEngine background thread...
+[2026-11-12 19:25:26] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine loop terminated cleanly.
+[2026-11-12 19:25:26] [INFO] [SysMonitor.MonitoringEngine.stop]: MonitoringEngine background thread stopped successfully.
+[2026-11-12 19:25:32] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: D:\OS Project\data\sysmonitor.db
+[2026-11-12 19:25:32] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: D:\OS Project\data\sysmonitor.db
+[2026-11-12 19:25:32] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 60s
+[2026-11-12 19:25:32] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 60s
+[2026-11-12 19:25:32] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-12 19:25:32] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-12 19:26:09] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: D:\OS Project\data\sysmonitor.db
+[2026-11-12 19:26:09] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: D:\OS Project\data\sysmonitor.db
+[2026-11-12 19:26:09] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: D:\OS Project\data\sysmonitor.db
+[2026-11-12 19:26:09] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 60s
+[2026-11-12 19:26:09] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 60s
+[2026-11-12 19:26:09] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 60s
+[2026-11-12 19:26:09] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-12 19:26:09] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-12 19:26:09] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-12 19:26:23] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: D:\OS Project\data\sysmonitor.db
+[2026-11-12 19:26:23] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: D:\OS Project\data\sysmonitor.db
+[2026-11-12 19:26:23] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: D:\OS Project\data\sysmonitor.db
+[2026-11-12 19:26:23] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: D:\OS Project\data\sysmonitor.db
+[2026-11-12 19:26:23] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 60s
+[2026-11-12 19:26:23] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 60s
+[2026-11-12 19:26:23] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 60s
+[2026-11-12 19:26:23] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 60s
+[2026-11-12 19:26:23] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-12 19:26:23] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-12 19:26:23] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-12 19:26:23] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-12 19:27:23] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpjsdqo0vc\test_alerts.db
+[2026-11-12 19:27:23] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 10s
+[2026-11-12 19:27:23] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] Elevated CPU usage: 75.0% exceeds warning threshold of 70.0% (Observed: 75.0, Threshold: 70.0)
+[2026-11-12 19:27:23] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Critical] Critical CPU saturation: 92.0% exceeds critical limit of 90.0% (Observed: 92.0, Threshold: 90.0)
+[2026-11-12 19:27:23] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpju5ci1nf\test_alerts.db
+[2026-11-12 19:27:23] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 10s
+[2026-11-12 19:27:23] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] High RAM usage: 85.0% exceeds warning threshold of 80.0% (Observed: 85.0, Threshold: 80.0)
+[2026-11-12 19:27:23] [INFO] [SysMonitor.AnomalyDetector.evaluate_metric]: Statistical Anomaly Detected: Cpu Percent spiked to 85.0, which is +37.00σ above recent baseline (11.0 ± 0.8)
+[2026-11-12 19:27:26] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: D:\OS Project\data\sysmonitor.db
+[2026-11-12 19:27:26] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 60s
+[2026-11-12 19:27:26] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-12 19:27:29] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine background execution loop started.
+[2026-11-12 19:27:29] [INFO] [SysMonitor.MonitoringEngine.start]: MonitoringEngine background thread started (interval: 0.2s)
+[2026-11-12 19:27:30] [INFO] [SysMonitor.MonitoringEngine.stop]: Stopping MonitoringEngine background thread...
+[2026-11-12 19:27:31] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine loop terminated cleanly.
+[2026-11-12 19:27:31] [INFO] [SysMonitor.MonitoringEngine.stop]: MonitoringEngine background thread stopped successfully.
+[2026-11-12 19:27:31] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpjevj3t6y\test_sysmonitor.db
+[2026-11-12 19:27:32] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpenk8xm04\test_sysmonitor.db
+[2026-11-12 19:27:33] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpxm7fnoy9\test_sysmonitor.db
+[2026-11-12 19:27:33] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpk_s3cdng\test_sysmonitor.db
+[2026-11-12 19:27:33] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] CPU utilization at 82% (Observed: 82.0, Threshold: 80.0)
+[2026-11-12 19:27:33] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Critical] RAM utilization at 96% (Observed: 96.0, Threshold: 95.0)
+[2026-11-12 19:27:33] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpni920ijb\test_sysmonitor.db
+[2026-11-12 19:27:33] [INFO] [SysMonitor.DBManager.prune_old_data]: Pruned 1 old system metrics and 0 old process snapshots
+[2026-11-12 19:27:33] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmph9xu4pb8\test_sysmonitor.db
+[2026-11-12 19:27:33] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpwxhcgu2j\test_sysmonitor.db
+[2026-11-12 19:31:45] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmphlvez5bb\test_alerts.db
+[2026-11-12 19:31:45] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 10s
+[2026-11-12 19:31:45] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] Elevated CPU usage: 75.0% exceeds warning threshold of 70.0% (Observed: 75.0, Threshold: 70.0)
+[2026-11-12 19:31:45] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Critical] Critical CPU saturation: 92.0% exceeds critical limit of 90.0% (Observed: 92.0, Threshold: 90.0)
+[2026-11-12 19:31:45] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpxda456p1\test_alerts.db
+[2026-11-12 19:31:45] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 10s
+[2026-11-12 19:31:45] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] High RAM usage: 85.0% exceeds warning threshold of 80.0% (Observed: 85.0, Threshold: 80.0)
+[2026-11-12 19:31:45] [INFO] [SysMonitor.AnomalyDetector.evaluate_metric]: Statistical Anomaly Detected: Cpu Percent spiked to 85.0, which is +37.00σ above recent baseline (11.0 ± 0.8)
+[2026-11-12 19:31:50] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: D:\OS Project\data\sysmonitor.db
+[2026-11-12 19:31:50] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 60s
+[2026-11-12 19:31:50] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-12 19:31:53] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine background execution loop started.
+[2026-11-12 19:31:53] [INFO] [SysMonitor.MonitoringEngine.start]: MonitoringEngine background thread started (interval: 0.2s)
+[2026-11-12 19:31:54] [INFO] [SysMonitor.MonitoringEngine.stop]: Stopping MonitoringEngine background thread...
+[2026-11-12 19:31:54] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine loop terminated cleanly.
+[2026-11-12 19:31:54] [INFO] [SysMonitor.MonitoringEngine.stop]: MonitoringEngine background thread stopped successfully.
+[2026-11-12 19:31:55] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpwx4xen4_\test_sysmonitor.db
+[2026-11-12 19:31:56] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpbz82dmop\test_sysmonitor.db
+[2026-11-12 19:31:56] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpnsrxbzlg\test_sysmonitor.db
+[2026-11-12 19:31:56] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpoh2xclyt\test_sysmonitor.db
+[2026-11-12 19:31:56] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] CPU utilization at 82% (Observed: 82.0, Threshold: 80.0)
+[2026-11-12 19:31:56] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Critical] RAM utilization at 96% (Observed: 96.0, Threshold: 95.0)
+[2026-11-12 19:31:56] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpvudsh7r_\test_sysmonitor.db
+[2026-11-12 19:31:56] [INFO] [SysMonitor.DBManager.prune_old_data]: Pruned 1 old system metrics and 0 old process snapshots
+[2026-11-12 19:31:56] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp2jnogi0w\test_sysmonitor.db
+[2026-11-12 19:31:56] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmphhn0rxo_\test_sysmonitor.db
+[2026-11-12 19:32:58] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: D:\OS Project\data\sysmonitor.db
+[2026-11-12 19:32:58] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 60s
+[2026-11-12 19:32:58] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-12 19:33:18] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine background execution loop started.
+[2026-11-12 19:33:18] [INFO] [SysMonitor.MonitoringEngine.start]: MonitoringEngine background thread started (interval: 1.0s)
+[2026-11-12 19:33:18] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] High RAM usage: 86.7% exceeds warning threshold of 85.0% (Observed: 86.7, Threshold: 85.0)
+[2026-11-12 19:33:38] [INFO] [SysMonitor.MonitoringEngine.stop]: Stopping MonitoringEngine background thread...
+[2026-11-12 19:33:38] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine loop terminated cleanly.
+[2026-11-12 19:33:38] [INFO] [SysMonitor.MonitoringEngine.stop]: MonitoringEngine background thread stopped successfully.
+[2026-11-12 19:34:23] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine background execution loop started.
+[2026-11-12 19:34:23] [INFO] [SysMonitor.MonitoringEngine.start]: MonitoringEngine background thread started (interval: 1.0s)
+[2026-11-12 19:34:23] [INFO] [SysMonitor.AnomalyDetector.evaluate_metric]: Statistical Anomaly Detected: Write Bytes Per Sec spiked to 859768.4, which is +4.09σ above recent baseline (312082.7 ± 133772.7)
+[2026-11-12 19:34:24] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] Statistical Anomaly: Write Bytes Per Sec spiked to 859768.4, which is +4.09σ above recent baseline (312082.7 ± 133772.7) (Observed: 859768.4, Threshold: 2.5)
+[2026-11-12 19:34:46] [INFO] [SysMonitor.AnomalyDetector.evaluate_metric]: Statistical Anomaly Detected: Read Bytes Per Sec spiked to 2041800.4, which is +17.87σ above recent baseline (47563.2 ± 111614.3)
+[2026-11-12 19:34:46] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] Statistical Anomaly: Read Bytes Per Sec spiked to 2041800.4, which is +17.87σ above recent baseline (47563.2 ± 111614.3) (Observed: 2041800.4, Threshold: 2.5)
+[2026-11-12 19:34:47] [INFO] [SysMonitor.AnomalyDetector.evaluate_metric]: Statistical Anomaly Detected: Download Speed spiked to 19209.7, which is +14.17σ above recent baseline (566.9 ± 1315.8)
+[2026-11-12 19:34:47] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] Statistical Anomaly: Download Speed spiked to 19209.7, which is +14.17σ above recent baseline (566.9 ± 1315.8) (Observed: 19209.7, Threshold: 2.5)
+[2026-11-12 19:34:49] [INFO] [SysMonitor.AnomalyDetector.evaluate_metric]: Statistical Anomaly Detected: Cpu Percent spiked to 54.4, which is +3.15σ above recent baseline (29.2 ± 8.0)
+[2026-11-12 19:34:49] [INFO] [SysMonitor.AnomalyDetector.evaluate_metric]: Statistical Anomaly Detected: Write Bytes Per Sec spiked to 17149755.2, which is +113.12σ above recent baseline (279560.9 ± 149133.5)
+[2026-11-12 19:34:49] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] Statistical Anomaly: Cpu Percent spiked to 54.4, which is +3.15σ above recent baseline (29.2 ± 8.0) (Observed: 54.4, Threshold: 2.5)
+[2026-11-12 19:35:06] [INFO] [SysMonitor.AnomalyDetector.evaluate_metric]: Statistical Anomaly Detected: Read Bytes Per Sec spiked to 1591869.3, which is +4.80σ above recent baseline (67313.9 ± 317458.7)
+[2026-11-12 19:35:20] [INFO] [SysMonitor.MonitoringEngine.stop]: Stopping MonitoringEngine background thread...
+[2026-11-12 19:35:20] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine loop terminated cleanly.
+[2026-11-12 19:35:20] [INFO] [SysMonitor.MonitoringEngine.stop]: MonitoringEngine background thread stopped successfully.
+[2026-11-12 19:38:32] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp3iajadtn\test_sysmonitor.db
+[2026-11-12 19:38:32] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpj__0_wim\test_sysmonitor.db
+[2026-11-12 19:38:32] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmph2bkxwzn\test_sysmonitor.db
+[2026-11-12 19:38:32] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp5drg724b\test_sysmonitor.db
+[2026-11-12 19:38:32] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] CPU utilization at 82% (Observed: 82.0, Threshold: 80.0)
+[2026-11-12 19:38:32] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Critical] RAM utilization at 96% (Observed: 96.0, Threshold: 95.0)
+[2026-11-12 19:38:32] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp7d7z2eda\test_sysmonitor.db
+[2026-11-12 19:38:32] [INFO] [SysMonitor.DBManager.prune_old_data]: Pruned 1 old system metrics and 0 old process snapshots
+[2026-11-12 19:38:32] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpe_gbipyo\test_sysmonitor.db
+[2026-11-12 19:38:32] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpv0t183eh\test_sysmonitor.db
+[2026-11-12 19:40:25] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: D:\OS Project\data\sysmonitor.db
+[2026-11-12 19:40:25] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 60s
+[2026-11-12 19:40:25] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-12 19:53:25] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpzc5bsyev\test_alerts.db
+[2026-11-12 19:53:25] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 10s
+[2026-11-12 19:53:25] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] Elevated CPU usage: 75.0% exceeds warning threshold of 70.0% (Observed: 75.0, Threshold: 70.0)
+[2026-11-12 19:53:25] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Critical] Critical CPU saturation: 92.0% exceeds critical limit of 90.0% (Observed: 92.0, Threshold: 90.0)
+[2026-11-12 19:53:25] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp_l8iovk_\test_alerts.db
+[2026-11-12 19:53:25] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 10s
+[2026-11-12 19:53:25] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] High RAM usage: 85.0% exceeds warning threshold of 80.0% (Observed: 85.0, Threshold: 80.0)
+[2026-11-12 19:53:25] [INFO] [SysMonitor.AnomalyDetector.evaluate_metric]: Statistical Anomaly Detected: Cpu Percent spiked to 85.0, which is +37.00σ above recent baseline (11.0 ± 0.8)
+[2026-11-12 19:53:29] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: D:\OS Project\data\sysmonitor.db
+[2026-11-12 19:53:29] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 60s
+[2026-11-12 19:53:29] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-12 19:53:33] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine background execution loop started.
+[2026-11-12 19:53:33] [INFO] [SysMonitor.MonitoringEngine.start]: MonitoringEngine background thread started (interval: 0.2s)
+[2026-11-12 19:53:34] [INFO] [SysMonitor.MonitoringEngine.stop]: Stopping MonitoringEngine background thread...
+[2026-11-12 19:53:34] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine loop terminated cleanly.
+[2026-11-12 19:53:34] [INFO] [SysMonitor.MonitoringEngine.stop]: MonitoringEngine background thread stopped successfully.
+[2026-11-12 19:53:35] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpvvm0t318\test_sysmonitor.db
+[2026-11-12 19:53:36] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp4oa7m8w4\test_sysmonitor.db
+[2026-11-12 19:53:37] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpl9u95_op\test_sysmonitor.db
+[2026-11-12 19:53:38] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpfbb1lq59\test_sysmonitor.db
+[2026-11-12 19:53:38] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] CPU utilization at 82% (Observed: 82.0, Threshold: 80.0)
+[2026-11-12 19:53:38] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Critical] RAM utilization at 96% (Observed: 96.0, Threshold: 95.0)
+[2026-11-12 19:53:38] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp45en_0w2\test_sysmonitor.db
+[2026-11-12 19:53:38] [INFO] [SysMonitor.DBManager.prune_old_data]: Pruned 1 old system metrics and 0 old process snapshots
+[2026-11-12 19:53:38] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmptwduhfr3\test_sysmonitor.db
+[2026-11-12 19:53:38] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpxdn9msov\test_sysmonitor.db
+[2026-11-12 19:53:48] [INFO] [SysMonitor.Phase1Verification.run_phase1_verification]: Starting Phase 1 verification on host machine
+[2026-11-12 19:53:54] [INFO] [SysMonitor.Phase1Verification.run_phase1_verification]: Phase 1 verification completed successfully with all assertions passing.
+[2026-11-12 19:59:36] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpdwkicutf\test_alerts.db
+[2026-11-12 19:59:36] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 10s
+[2026-11-12 19:59:36] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] Elevated CPU usage: 75.0% exceeds warning threshold of 70.0% (Observed: 75.0, Threshold: 70.0)
+[2026-11-12 19:59:36] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Critical] Critical CPU saturation: 92.0% exceeds critical limit of 90.0% (Observed: 92.0, Threshold: 90.0)
+[2026-11-12 19:59:36] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpikcjk8c9\test_alerts.db
+[2026-11-12 19:59:36] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 10s
+[2026-11-12 19:59:36] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] High RAM usage: 85.0% exceeds warning threshold of 80.0% (Observed: 85.0, Threshold: 80.0)
+[2026-11-12 19:59:36] [INFO] [SysMonitor.AnomalyDetector.evaluate_metric]: Statistical Anomaly Detected: Cpu Percent spiked to 85.0, which is +37.00σ above recent baseline (11.0 ± 0.8)
+[2026-11-12 19:59:43] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: D:\OS Project\data\sysmonitor.db
+[2026-11-12 19:59:43] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 60s
+[2026-11-12 19:59:43] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-12 19:59:48] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine background execution loop started.
+[2026-11-12 19:59:48] [INFO] [SysMonitor.MonitoringEngine.start]: MonitoringEngine background thread started (interval: 0.2s)
+[2026-11-12 19:59:49] [INFO] [SysMonitor.MonitoringEngine.stop]: Stopping MonitoringEngine background thread...
+[2026-11-12 19:59:49] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine loop terminated cleanly.
+[2026-11-12 19:59:49] [INFO] [SysMonitor.MonitoringEngine.stop]: MonitoringEngine background thread stopped successfully.
+[2026-11-12 19:59:50] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpfi6if1h0\test_sysmonitor.db
+[2026-11-12 19:59:51] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpahqcuqft\test_sysmonitor.db
+[2026-11-12 19:59:52] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpev82i08q\test_sysmonitor.db
+[2026-11-12 19:59:53] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp6axostq4\test_sysmonitor.db
+[2026-11-12 19:59:53] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] CPU utilization at 82% (Observed: 82.0, Threshold: 80.0)
+[2026-11-12 19:59:54] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Critical] RAM utilization at 96% (Observed: 96.0, Threshold: 95.0)
+[2026-11-12 19:59:54] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpl5h7wdpq\test_sysmonitor.db
+[2026-11-12 19:59:54] [INFO] [SysMonitor.DBManager.prune_old_data]: Pruned 1 old system metrics and 0 old process snapshots
+[2026-11-12 19:59:54] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp6dy6e2y6\test_sysmonitor.db
+[2026-11-12 19:59:54] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpv1lhvvw2\test_sysmonitor.db
+[2026-11-12 20:05:25] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpi1ubdcy5\test_alerts.db
+[2026-11-12 20:05:25] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 10s
+[2026-11-12 20:05:25] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] Elevated CPU usage: 75.0% exceeds warning threshold of 70.0% (Observed: 75.0, Threshold: 70.0)
+[2026-11-12 20:05:25] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Critical] Critical CPU saturation: 92.0% exceeds critical limit of 90.0% (Observed: 92.0, Threshold: 90.0)
+[2026-11-12 20:05:25] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp6sxj60wf\test_alerts.db
+[2026-11-12 20:05:25] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 10s
+[2026-11-12 20:05:25] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] High RAM usage: 85.0% exceeds warning threshold of 80.0% (Observed: 85.0, Threshold: 80.0)
+[2026-11-12 20:05:25] [INFO] [SysMonitor.AnomalyDetector.evaluate_metric]: Statistical Anomaly Detected: Cpu Percent spiked to 85.0, which is +37.00σ above recent baseline (11.0 ± 0.8)
+[2026-11-12 20:05:31] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: D:\OS Project\data\sysmonitor.db
+[2026-11-12 20:05:31] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 60s
+[2026-11-12 20:05:31] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-12 20:05:35] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine background execution loop started.
+[2026-11-12 20:05:35] [INFO] [SysMonitor.MonitoringEngine.start]: MonitoringEngine background thread started (interval: 0.2s)
+[2026-11-12 20:05:36] [INFO] [SysMonitor.MonitoringEngine.stop]: Stopping MonitoringEngine background thread...
+[2026-11-12 20:05:36] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine loop terminated cleanly.
+[2026-11-12 20:05:37] [INFO] [SysMonitor.MonitoringEngine.stop]: MonitoringEngine background thread stopped successfully.
+[2026-11-12 20:05:37] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpzh14eo6e\test_sysmonitor.db
+[2026-11-12 20:05:38] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpue1l631u\test_sysmonitor.db
+[2026-11-12 20:05:39] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmped_53w4f\test_sysmonitor.db
+[2026-11-12 20:05:39] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp4qzuopz6\test_sysmonitor.db
+[2026-11-12 20:05:39] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] CPU utilization at 82% (Observed: 82.0, Threshold: 80.0)
+[2026-11-12 20:05:39] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Critical] RAM utilization at 96% (Observed: 96.0, Threshold: 95.0)
+[2026-11-12 20:05:40] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp4l29dg9a\test_sysmonitor.db
+[2026-11-12 20:05:40] [INFO] [SysMonitor.DBManager.prune_old_data]: Pruned 1 old system metrics and 0 old process snapshots
+[2026-11-12 20:05:40] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmppka1eevy\test_sysmonitor.db
+[2026-11-12 20:05:40] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpbdoggel3\test_sysmonitor.db
+[2026-11-12 20:10:38] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpza5g6l9x\test_alerts.db
+[2026-11-12 20:10:38] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 10s
+[2026-11-12 20:10:38] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] Elevated CPU usage: 75.0% exceeds warning threshold of 70.0% (Observed: 75.0, Threshold: 70.0)
+[2026-11-12 20:10:38] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Critical] Critical CPU saturation: 92.0% exceeds critical limit of 90.0% (Observed: 92.0, Threshold: 90.0)
+[2026-11-12 20:10:38] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpsyx2vb4p\test_alerts.db
+[2026-11-12 20:10:38] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 10s
+[2026-11-12 20:10:38] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] High RAM usage: 85.0% exceeds warning threshold of 80.0% (Observed: 85.0, Threshold: 80.0)
+[2026-11-12 20:10:38] [INFO] [SysMonitor.AnomalyDetector.evaluate_metric]: Statistical Anomaly Detected: Cpu Percent spiked to 85.0, which is +37.00σ above recent baseline (11.0 ± 0.8)
+[2026-11-12 20:10:42] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: D:\OS Project\data\sysmonitor.db
+[2026-11-12 20:10:42] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 60s
+[2026-11-12 20:10:42] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-12 20:10:46] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine background execution loop started.
+[2026-11-12 20:10:46] [INFO] [SysMonitor.MonitoringEngine.start]: MonitoringEngine background thread started (interval: 0.2s)
+[2026-11-12 20:10:47] [INFO] [SysMonitor.MonitoringEngine.stop]: Stopping MonitoringEngine background thread...
+[2026-11-12 20:10:47] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine loop terminated cleanly.
+[2026-11-12 20:10:47] [INFO] [SysMonitor.MonitoringEngine.stop]: MonitoringEngine background thread stopped successfully.
+[2026-11-12 20:10:48] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp2pzm0bte\test_sysmonitor.db
+[2026-11-12 20:10:49] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp7qigiity\test_sysmonitor.db
+[2026-11-12 20:10:50] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp1mlc5v58\test_sysmonitor.db
+[2026-11-12 20:10:50] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp0lkszvz0\test_sysmonitor.db
+[2026-11-12 20:10:50] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] CPU utilization at 82% (Observed: 82.0, Threshold: 80.0)
+[2026-11-12 20:10:50] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Critical] RAM utilization at 96% (Observed: 96.0, Threshold: 95.0)
+[2026-11-12 20:10:50] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp67okb0ys\test_sysmonitor.db
+[2026-11-12 20:10:50] [INFO] [SysMonitor.DBManager.prune_old_data]: Pruned 1 old system metrics and 0 old process snapshots
+[2026-11-12 20:10:50] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpd39cssld\test_sysmonitor.db
+[2026-11-12 20:10:50] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp5vr_mhxs\test_sysmonitor.db
+[2026-11-12 20:12:51] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: D:\OS Project\data\sysmonitor.db
+[2026-11-12 20:12:51] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 60s
+[2026-11-12 20:12:51] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-12 20:16:13] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp7raoam88\test_alerts.db
+[2026-11-12 20:16:13] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 10s
+[2026-11-12 20:16:13] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] Elevated CPU usage: 75.0% exceeds warning threshold of 70.0% (Observed: 75.0, Threshold: 70.0)
+[2026-11-12 20:16:13] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Critical] Critical CPU saturation: 92.0% exceeds critical limit of 90.0% (Observed: 92.0, Threshold: 90.0)
+[2026-11-12 20:16:13] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp74izqjk4\test_alerts.db
+[2026-11-12 20:16:13] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 10s
+[2026-11-12 20:16:13] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] High RAM usage: 85.0% exceeds warning threshold of 80.0% (Observed: 85.0, Threshold: 80.0)
+[2026-11-12 20:16:13] [INFO] [SysMonitor.AnomalyDetector.evaluate_metric]: Statistical Anomaly Detected: Cpu Percent spiked to 85.0, which is +37.00σ above recent baseline (11.0 ± 0.8)
+[2026-11-12 20:16:18] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: D:\OS Project\data\sysmonitor.db
+[2026-11-12 20:16:18] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 60s
+[2026-11-12 20:16:18] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-12 20:16:22] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine background execution loop started.
+[2026-11-12 20:16:22] [INFO] [SysMonitor.MonitoringEngine.start]: MonitoringEngine background thread started (interval: 0.2s)
+[2026-11-12 20:16:23] [INFO] [SysMonitor.MonitoringEngine.stop]: Stopping MonitoringEngine background thread...
+[2026-11-12 20:16:23] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine loop terminated cleanly.
+[2026-11-12 20:16:24] [INFO] [SysMonitor.MonitoringEngine.stop]: MonitoringEngine background thread stopped successfully.
+[2026-11-12 20:16:25] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp0li8bxbi\test_sysmonitor.db
+[2026-11-12 20:16:26] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpftub8sxk\test_sysmonitor.db
+[2026-11-12 20:16:27] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpvxurm12h\test_sysmonitor.db
+[2026-11-12 20:16:27] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpr9wzyqpa\test_sysmonitor.db
+[2026-11-12 20:16:27] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] CPU utilization at 82% (Observed: 82.0, Threshold: 80.0)
+[2026-11-12 20:16:27] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Critical] RAM utilization at 96% (Observed: 96.0, Threshold: 95.0)
+[2026-11-12 20:16:27] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpvz5m80y_\test_sysmonitor.db
+[2026-11-12 20:16:27] [INFO] [SysMonitor.DBManager.prune_old_data]: Pruned 1 old system metrics and 0 old process snapshots
+[2026-11-12 20:16:28] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpqd6r1a14\test_sysmonitor.db
+[2026-11-12 20:16:28] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpy7aufr4h\test_sysmonitor.db
+[2026-11-12 20:18:06] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: D:\OS Project\data\sysmonitor.db
+[2026-11-12 20:18:06] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 60s
+[2026-11-12 20:18:06] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-12 20:18:22] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpcfzzqj78\test_alerts.db
+[2026-11-12 20:18:22] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 10s
+[2026-11-12 20:18:22] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] Elevated CPU usage: 75.0% exceeds warning threshold of 70.0% (Observed: 75.0, Threshold: 70.0)
+[2026-11-12 20:18:22] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Critical] Critical CPU saturation: 92.0% exceeds critical limit of 90.0% (Observed: 92.0, Threshold: 90.0)
+[2026-11-12 20:18:22] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpbzfk91co\test_alerts.db
+[2026-11-12 20:18:22] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 10s
+[2026-11-12 20:18:22] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] High RAM usage: 85.0% exceeds warning threshold of 80.0% (Observed: 85.0, Threshold: 80.0)
+[2026-11-12 20:18:22] [INFO] [SysMonitor.AnomalyDetector.evaluate_metric]: Statistical Anomaly Detected: Cpu Percent spiked to 85.0, which is +37.00σ above recent baseline (11.0 ± 0.8)
+[2026-11-12 20:18:28] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: D:\OS Project\data\sysmonitor.db
+[2026-11-12 20:18:28] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 60s
+[2026-11-12 20:18:28] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-12 20:18:33] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine background execution loop started.
+[2026-11-12 20:18:33] [INFO] [SysMonitor.MonitoringEngine.start]: MonitoringEngine background thread started (interval: 0.2s)
+[2026-11-12 20:18:34] [INFO] [SysMonitor.MonitoringEngine.stop]: Stopping MonitoringEngine background thread...
+[2026-11-12 20:18:34] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine loop terminated cleanly.
+[2026-11-12 20:18:34] [INFO] [SysMonitor.MonitoringEngine.stop]: MonitoringEngine background thread stopped successfully.
+[2026-11-12 20:18:34] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmphskugilc\test_sysmonitor.db
+[2026-11-12 20:18:35] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpvf9iztc2\test_sysmonitor.db
+[2026-11-12 20:18:36] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpufvofpql\test_sysmonitor.db
+[2026-11-12 20:18:37] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp9quw50g3\test_sysmonitor.db
+[2026-11-12 20:18:37] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] CPU utilization at 82% (Observed: 82.0, Threshold: 80.0)
+[2026-11-12 20:18:37] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Critical] RAM utilization at 96% (Observed: 96.0, Threshold: 95.0)
+[2026-11-12 20:18:37] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpb655nbmq\test_sysmonitor.db
+[2026-11-12 20:18:37] [INFO] [SysMonitor.DBManager.prune_old_data]: Pruned 1 old system metrics and 0 old process snapshots
+[2026-11-12 20:18:37] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpxxbywe_m\test_sysmonitor.db
+[2026-11-12 20:18:37] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpfgir6fxb\test_sysmonitor.db
+[2026-11-12 20:19:29] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: D:\OS Project\data\sysmonitor.db
+[2026-11-12 20:19:29] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 60s
+[2026-11-12 20:19:29] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-12 20:23:15] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: D:\OS Project\data\sysmonitor.db
+[2026-11-12 20:23:15] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 60s
+[2026-11-12 20:23:15] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-12 20:23:28] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpkak644ab\test_alerts.db
+[2026-11-12 20:23:28] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 10s
+[2026-11-12 20:23:28] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] Elevated CPU usage: 75.0% exceeds warning threshold of 70.0% (Observed: 75.0, Threshold: 70.0)
+[2026-11-12 20:23:28] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Critical] Critical CPU saturation: 92.0% exceeds critical limit of 90.0% (Observed: 92.0, Threshold: 90.0)
+[2026-11-12 20:23:28] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpjnzdb_zb\test_alerts.db
+[2026-11-12 20:23:28] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 10s
+[2026-11-12 20:23:28] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] High RAM usage: 85.0% exceeds warning threshold of 80.0% (Observed: 85.0, Threshold: 80.0)
+[2026-11-12 20:23:28] [INFO] [SysMonitor.AnomalyDetector.evaluate_metric]: Statistical Anomaly Detected: Cpu Percent spiked to 85.0, which is +37.00σ above recent baseline (11.0 ± 0.8)
+[2026-11-12 20:23:36] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: D:\OS Project\data\sysmonitor.db
+[2026-11-12 20:23:36] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 60s
+[2026-11-12 20:23:36] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-12 20:23:43] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine background execution loop started.
+[2026-11-12 20:23:43] [INFO] [SysMonitor.MonitoringEngine.start]: MonitoringEngine background thread started (interval: 0.2s)
+[2026-11-12 20:23:45] [INFO] [SysMonitor.MonitoringEngine.stop]: Stopping MonitoringEngine background thread...
+[2026-11-12 20:23:45] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine loop terminated cleanly.
+[2026-11-12 20:23:45] [INFO] [SysMonitor.MonitoringEngine.stop]: MonitoringEngine background thread stopped successfully.
+[2026-11-12 20:23:46] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpnohk2en1\test_sysmonitor.db
+[2026-11-12 20:23:47] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpk8wka7ps\test_sysmonitor.db
+[2026-11-12 20:23:49] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp2rw2hw_p\test_sysmonitor.db
+[2026-11-12 20:23:50] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmph4q89r9q\test_sysmonitor.db
+[2026-11-12 20:23:51] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] CPU utilization at 82% (Observed: 82.0, Threshold: 80.0)
+[2026-11-12 20:23:51] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Critical] RAM utilization at 96% (Observed: 96.0, Threshold: 95.0)
+[2026-11-12 20:23:51] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmptexiia_1\test_sysmonitor.db
+[2026-11-12 20:23:51] [INFO] [SysMonitor.DBManager.prune_old_data]: Pruned 1 old system metrics and 0 old process snapshots
+[2026-11-12 20:23:51] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpeyswd5qc\test_sysmonitor.db
+[2026-11-12 20:23:51] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpd5iwgytf\test_sysmonitor.db
+[2026-11-12 20:24:59] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: D:\OS Project\data\sysmonitor.db
+[2026-11-12 20:24:59] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 60s
+[2026-11-12 20:24:59] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-12 20:34:28] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp0j5m19bu\test_alerts.db
+[2026-11-12 20:34:28] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 10s
+[2026-11-12 20:34:28] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] Elevated CPU usage: 75.0% exceeds warning threshold of 70.0% (Observed: 75.0, Threshold: 70.0)
+[2026-11-12 20:34:28] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Critical] Critical CPU saturation: 92.0% exceeds critical limit of 90.0% (Observed: 92.0, Threshold: 90.0)
+[2026-11-12 20:34:28] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpfmk56apj\test_alerts.db
+[2026-11-12 20:34:28] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 10s
+[2026-11-12 20:34:28] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] High RAM usage: 85.0% exceeds warning threshold of 80.0% (Observed: 85.0, Threshold: 80.0)
+[2026-11-12 20:34:28] [INFO] [SysMonitor.AnomalyDetector.evaluate_metric]: Statistical Anomaly Detected: Cpu Percent spiked to 85.0, which is +37.00σ above recent baseline (11.0 ± 0.8)
+[2026-11-12 20:34:35] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: D:\OS Project\data\sysmonitor.db
+[2026-11-12 20:34:35] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 60s
+[2026-11-12 20:34:35] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-12 20:34:40] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] High RAM usage: 86.8% exceeds warning threshold of 85.0% (Observed: 86.8, Threshold: 85.0)
+[2026-11-12 20:34:40] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine background execution loop started.
+[2026-11-12 20:34:40] [INFO] [SysMonitor.MonitoringEngine.start]: MonitoringEngine background thread started (interval: 0.2s)
+[2026-11-12 20:34:41] [INFO] [SysMonitor.MonitoringEngine.stop]: Stopping MonitoringEngine background thread...
+[2026-11-12 20:34:41] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine loop terminated cleanly.
+[2026-11-12 20:34:41] [INFO] [SysMonitor.MonitoringEngine.stop]: MonitoringEngine background thread stopped successfully.
+[2026-11-12 20:34:42] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmph3g_nli2\test_sysmonitor.db
+[2026-11-12 20:34:43] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpnexcua7p\test_sysmonitor.db
+[2026-11-12 20:34:43] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmple9p82kr\test_sysmonitor.db
+[2026-11-12 20:34:44] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp8_fppkec\test_sysmonitor.db
+[2026-11-12 20:34:45] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] CPU utilization at 82% (Observed: 82.0, Threshold: 80.0)
+[2026-11-12 20:34:45] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Critical] RAM utilization at 96% (Observed: 96.0, Threshold: 95.0)
+[2026-11-12 20:34:45] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp7pnjm3p0\test_sysmonitor.db
+[2026-11-12 20:34:45] [INFO] [SysMonitor.DBManager.prune_old_data]: Pruned 1 old system metrics and 0 old process snapshots
+[2026-11-12 20:34:45] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpop57mg__\test_sysmonitor.db
+[2026-11-12 20:34:45] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpocdix53f\test_sysmonitor.db
+[2026-11-12 20:34:54] [INFO] [SysMonitor.Phase1Verification.run_phase1_verification]: Starting Phase 1 verification on host machine
+[2026-11-12 20:34:59] [INFO] [SysMonitor.Phase1Verification.run_phase1_verification]: Phase 1 verification completed successfully with all assertions passing.
+[2026-11-12 20:36:06] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: D:\OS Project\data\sysmonitor.db
+[2026-11-12 20:36:06] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 60s
+[2026-11-12 20:36:06] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-12 20:36:11] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] High RAM usage: 88.9% exceeds warning threshold of 85.0% (Observed: 88.9, Threshold: 85.0)
+[2026-11-13 10:24:57] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: D:\OS Project\data\sysmonitor.db
+[2026-11-13 10:24:57] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 60s
+[2026-11-13 10:24:57] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-13 10:31:57] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpmzkk9fsy\test_alerts.db
+[2026-11-13 10:31:57] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 10s
+[2026-11-13 10:31:57] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] Elevated CPU usage: 75.0% exceeds warning threshold of 70.0% (Observed: 75.0, Threshold: 70.0)
+[2026-11-13 10:31:57] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Critical] Critical CPU saturation: 92.0% exceeds critical limit of 90.0% (Observed: 92.0, Threshold: 90.0)
+[2026-11-13 10:31:57] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpm99apus3\test_alerts.db
+[2026-11-13 10:31:57] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 10s
+[2026-11-13 10:31:57] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] High RAM usage: 85.0% exceeds warning threshold of 80.0% (Observed: 85.0, Threshold: 80.0)
+[2026-11-13 10:31:57] [INFO] [SysMonitor.AnomalyDetector.evaluate_metric]: Statistical Anomaly Detected: Cpu Percent spiked to 85.0, which is +37.00σ above recent baseline (11.0 ± 0.8)
+[2026-11-13 10:31:57] [ERROR] [SysMonitor.MemoryCollector.collect]: Error collecting memory metrics: PdhAddEnglishCounterW failed. Performance counters may be disabled.
+[2026-11-13 10:31:58] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: D:\OS Project\data\sysmonitor.db
+[2026-11-13 10:31:58] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 60s
+[2026-11-13 10:31:58] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-13 10:31:58] [ERROR] [SysMonitor.MemoryCollector.collect]: Error collecting memory metrics: PdhAddEnglishCounterW failed. Performance counters may be disabled.
+[2026-11-13 10:31:58] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine background execution loop started.
+[2026-11-13 10:31:58] [INFO] [SysMonitor.MonitoringEngine.start]: MonitoringEngine background thread started (interval: 0.2s)
+[2026-11-13 10:31:58] [ERROR] [SysMonitor.MemoryCollector.collect]: Error collecting memory metrics: PdhAddEnglishCounterW failed. Performance counters may be disabled.
+[2026-11-13 10:31:58] [ERROR] [SysMonitor.MemoryCollector.collect]: Error collecting memory metrics: PdhAddEnglishCounterW failed. Performance counters may be disabled.
+[2026-11-13 10:31:58] [ERROR] [SysMonitor.MemoryCollector.collect]: Error collecting memory metrics: PdhAddEnglishCounterW failed. Performance counters may be disabled.
+[2026-11-13 10:31:59] [ERROR] [SysMonitor.MemoryCollector.collect]: Error collecting memory metrics: PdhAddEnglishCounterW failed. Performance counters may be disabled.
+[2026-11-13 10:31:59] [ERROR] [SysMonitor.MemoryCollector.collect]: Error collecting memory metrics: PdhAddEnglishCounterW failed. Performance counters may be disabled.
+[2026-11-13 10:31:59] [ERROR] [SysMonitor.MemoryCollector.collect]: Error collecting memory metrics: PdhAddEnglishCounterW failed. Performance counters may be disabled.
+[2026-11-13 10:31:59] [INFO] [SysMonitor.MonitoringEngine.stop]: Stopping MonitoringEngine background thread...
+[2026-11-13 10:31:59] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine loop terminated cleanly.
+[2026-11-13 10:31:59] [INFO] [SysMonitor.MonitoringEngine.stop]: MonitoringEngine background thread stopped successfully.
+[2026-11-13 10:31:59] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpxqf7l7ql\test_sysmonitor.db
+[2026-11-13 10:31:59] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp7n2x5r6i\test_sysmonitor.db
+[2026-11-13 10:31:59] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp821bf7n9\test_sysmonitor.db
+[2026-11-13 10:31:59] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpyw67kphs\test_sysmonitor.db
+[2026-11-13 10:31:59] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] CPU utilization at 82% (Observed: 82.0, Threshold: 80.0)
+[2026-11-13 10:31:59] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Critical] RAM utilization at 96% (Observed: 96.0, Threshold: 95.0)
+[2026-11-13 10:31:59] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp_4sxdpja\test_sysmonitor.db
+[2026-11-13 10:31:59] [INFO] [SysMonitor.DBManager.prune_old_data]: Pruned 1 old system metrics and 0 old process snapshots
+[2026-11-13 10:31:59] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpsd7fumwo\test_sysmonitor.db
+[2026-11-13 10:31:59] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpn2g3c90_\test_sysmonitor.db
+[2026-11-13 10:32:51] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: D:\OS Project\data\sysmonitor.db
+[2026-11-13 10:32:51] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: D:\OS Project\data\sysmonitor.db
+[2026-11-13 10:32:51] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 60s
+[2026-11-13 10:32:51] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 60s
+[2026-11-13 10:32:51] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-13 10:32:51] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-13 10:33:35] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: D:\OS Project\data\sysmonitor.db
+[2026-11-13 10:33:35] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: D:\OS Project\data\sysmonitor.db
+[2026-11-13 10:33:35] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: D:\OS Project\data\sysmonitor.db
+[2026-11-13 10:33:35] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 60s
+[2026-11-13 10:33:35] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 60s
+[2026-11-13 10:33:35] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 60s
+[2026-11-13 10:33:35] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-13 10:33:35] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-13 10:33:35] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-13 10:33:55] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpml39bwr4\test_alerts.db
+[2026-11-13 10:33:55] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 10s
+[2026-11-13 10:33:55] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] Elevated CPU usage: 75.0% exceeds warning threshold of 70.0% (Observed: 75.0, Threshold: 70.0)
+[2026-11-13 10:33:55] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Critical] Critical CPU saturation: 92.0% exceeds critical limit of 90.0% (Observed: 92.0, Threshold: 90.0)
+[2026-11-13 10:33:55] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp1765jj3r\test_alerts.db
+[2026-11-13 10:33:55] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 10s
+[2026-11-13 10:33:55] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] High RAM usage: 85.0% exceeds warning threshold of 80.0% (Observed: 85.0, Threshold: 80.0)
+[2026-11-13 10:33:55] [INFO] [SysMonitor.AnomalyDetector.evaluate_metric]: Statistical Anomaly Detected: Cpu Percent spiked to 85.0, which is +37.00σ above recent baseline (11.0 ± 0.8)
+[2026-11-13 10:33:55] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: D:\OS Project\data\sysmonitor.db
+[2026-11-13 10:33:55] [INFO] [SysMonitor.AlertManager.__init__]: AlertManager initialized with cooldown 60s
+[2026-11-13 10:33:55] [INFO] [SysMonitor.MonitoringEngine.__init__]: MonitoringEngine initialized (Sampling: 1.0s, Process Interval: 2.0s, Buffer: 120)
+[2026-11-13 10:33:55] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine background execution loop started.
+[2026-11-13 10:33:55] [INFO] [SysMonitor.MonitoringEngine.start]: MonitoringEngine background thread started (interval: 0.2s)
+[2026-11-13 10:33:56] [INFO] [SysMonitor.MonitoringEngine.stop]: Stopping MonitoringEngine background thread...
+[2026-11-13 10:33:56] [INFO] [SysMonitor.MonitoringEngine._run_loop]: MonitoringEngine loop terminated cleanly.
+[2026-11-13 10:33:56] [INFO] [SysMonitor.MonitoringEngine.stop]: MonitoringEngine background thread stopped successfully.
+[2026-11-13 10:33:57] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpt8nmdet2\test_sysmonitor.db
+[2026-11-13 10:33:57] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpiz415jf9\test_sysmonitor.db
+[2026-11-13 10:33:57] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp4tzvkcxz\test_sysmonitor.db
+[2026-11-13 10:33:57] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpcst3n80y\test_sysmonitor.db
+[2026-11-13 10:33:57] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Warning] CPU utilization at 82% (Observed: 82.0, Threshold: 80.0)
+[2026-11-13 10:33:57] [INFO] [SysMonitor.DBManager.insert_alert_event]: Alert persisted: [Critical] RAM utilization at 96% (Observed: 96.0, Threshold: 95.0)
+[2026-11-13 10:33:57] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpiyl31gv5\test_sysmonitor.db
+[2026-11-13 10:33:57] [INFO] [SysMonitor.DBManager.prune_old_data]: Pruned 1 old system metrics and 0 old process snapshots
+[2026-11-13 10:33:57] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmpc76q2gcp\test_sysmonitor.db
+[2026-11-13 10:33:57] [INFO] [SysMonitor.DBManager.__init__]: DatabaseManager initialized with database: C:\Users\HP\AppData\Local\Temp\tmp48gy319o\test_sysmonitor.db
