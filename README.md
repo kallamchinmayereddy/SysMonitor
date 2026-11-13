@@ -1,6 +1,6 @@
 # SysMonitor: Intelligent Real-Time System Resource Monitoring & Performance Analytics Platform
 
-> **Academic Project**: 3rd-Year B.Tech Computer Science & Engineering – Operating Systems Laboratory  
+> **Academic Project**: 3rd-Year B.Tech Computer Science & Engineering – Operating Systems  
 > **Author / Host**: Chinmaye Reddy  
 > **Platform**: Windows 10/11 (with cross-platform POSIX abstraction)  
 > **Language**: Python 3.10+  
