@@ -159,9 +159,14 @@ def render_memory_page():
             fill="tozeroy",
             fillcolor="rgba(63, 185, 80, 0.12)",
         ))
+        swap_vals = (
+            df_hist["swap_percent"]
+            if "swap_percent" in df_hist.columns
+            else [metrics.get("swap_percent", 0.0)] * len(df_hist)
+        )
         fig_mem.add_trace(go.Scatter(
             x=df_hist["time_str"],
-            y=df_hist["swap_percent"],
+            y=swap_vals,
             name="Swap %",
             line=dict(color="#bc8cff", width=1.5, dash="dot"),
             mode="lines+markers",

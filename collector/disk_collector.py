@@ -51,11 +51,22 @@ class DiskCollector:
         used_storage = 0
         free_storage = 0
 
+        seen_devices = set()
         try:
             for part in psutil.disk_partitions(all=False):
-                # On Windows, skip cd-rom/removable drives that are empty
+                # Filter out container/pseudo bind mounts (e.g. Kubernetes/Docker mounts in Streamlit Cloud)
+                mp = part.mountpoint.lower()
+                if mp.startswith(("/etc/", "/dev/", "/proc/", "/sys/", "/run/")):
+                    continue
+
+                # Deduplicate physical devices so the same disk is not double-counted across mounts
+                dev_key = part.device if part.device else part.mountpoint
+                if dev_key in seen_devices:
+                    continue
+
                 try:
                     usage = psutil.disk_usage(part.mountpoint)
+                    seen_devices.add(dev_key)
                     partitions_data.append({
                         "device": part.device,
                         "mountpoint": part.mountpoint,
